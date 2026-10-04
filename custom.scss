@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+// Kuehl-minimalistisches, serifenloses Lese-Theme (ohne THWS-Branding).
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$body-bg: #ffffff;
+$body-color: #1b1f24;
+$primary: #2f6690;            // Stahlblau-Akzent
+$link-color: #2f6690;
+$link-hover-color: #21506f;
+
+$headings-font-weight: 650;
+$border-color: #e6e8eb;
+
+/*-- scss:rules --*/
+:root {
+  --ink-muted: #5b6670;
+  --accent: #2f6690;
+}
+
+body {
+  line-height: 1.75;
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+// angenehme Lesebreite
+main.content,
+#quarto-document-content { max-width: 44rem; }
+
+h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -0.01em; color: #11161c; }
+h1.title { font-weight: 700; font-size: clamp(1.9rem, 4vw, 2.4rem); }
+h2 { margin-top: 2.2rem; }
+
+p { hanging-punctuation: first; }
+
+a { text-underline-offset: 0.15em; }
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: var(--ink-muted);
+  font-style: normal;
+}
+
+// Titelei-Elemente auf der Startseite
+.book-epigraph {
+  margin: 2rem 0 2.5rem;
+  color: var(--ink-muted);
+  font-size: 1.05rem;
+}
+.book-epigraph p { line-height: 1.5; }
+.license-note {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+.beta-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+}
+
+// Fussnoten ruhiger
+.footnotes {
+  font-size: 0.92rem;
+  color: var(--ink-muted);
+  border-top: 1px solid $border-color;
+  margin-top: 3rem;
+}
+
+// Navigation nuechtern
+.sidebar-navigation .active { font-weight: 600; }
+.sidebar-title { font-weight: 700; }

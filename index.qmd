@@ -1,0 +1,28 @@
+::: {.book-epigraph}
+> It's been a long
+> A long time coming, but I know
+> A change gon′ come
+> Oh yes, it will
+
+— Sam Cooke
+:::
+
+[Public Beta · Version 0.1]{.beta-badge} &nbsp; Stand: Oktober 2026
+
+Dieses Buch erscheint als **öffentliche Beta** — Kapitel für Kapitel, in Wellen über die
+nächsten Wochen. Was hier steht, ist lesbar, aber noch in Bewegung: Rückmeldungen sind
+willkommen und fließen in die weiteren Wellen ein.
+
+Es handelt von der Kluft zwischen dem Versprechen der Moderne — Freiheit und Gleichheit —
+und der gelebten Erfahrung von Überforderung in der digitalen Gegenwart. Kein
+Niedergangs-, kein Fortschrittsnarrativ, sondern der Versuch, die Gegenwart zu verstehen.
+
+**Kuratiert von Markus Oermann.** Das Buch versteht sich zugleich als Beleg dafür, was ein
+diszipliniert geführtes KI-Setup leisten kann, wenn ein Mensch nicht mehr in erster Linie
+schreibt, sondern kuratiert, prüft und verantwortet. Mehr dazu im [Vorwort](chapters/vorwort.qmd).
+
+Nutzen Sie die Navigation links, um durch die bisher veröffentlichten Kapitel zu blättern.
+
+::: {.license-note}
+© 2026 Markus Oermann. Alle Rechte vorbehalten — frei lesbar und verlinkbar.
+:::

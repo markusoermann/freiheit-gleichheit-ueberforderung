@@ -1,0 +1,9 @@
+# Freigegebene Kapitel (Public-Beta-Wellen).
+# Eine Kapitel-Key pro Zeile. Zeilen mit # werden ignoriert.
+# Keys: vorwort, einleitung, kap-01 ... kap-13
+# Neue Welle: Key(s) ergaenzen -> python3 build/split_manuscript.py -> quarto render -> push.
+
+# --- Welle 1 ---
+vorwort
+einleitung
+kap-01

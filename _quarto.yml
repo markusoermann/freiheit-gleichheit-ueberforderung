@@ -1,0 +1,47 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Freiheit, Gleichheit, Überforderung."
+  author: "kuratiert von Markus Oermann"
+  date: "2026-10-04"
+  date-format: "MMMM YYYY"
+  output-file: "freiheit-gleichheit-ueberforderung"
+  downloads: [pdf]
+  search: true
+  reader-mode: true
+  page-navigation: true
+  chapters:
+    # BEGIN chapters
+    - index.qmd
+    - chapters/vorwort.qmd
+    - chapters/einleitung.qmd
+    - chapters/kap-01.qmd
+    # END chapters
+  page-footer:
+    center: "© 2026 Markus Oermann · Alle Rechte vorbehalten · frei lesbar und verlinkbar"
+
+lang: de
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: true
+    toc-title: "Auf dieser Seite"
+    number-sections: false
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+  typst:
+    papersize: a4
+    margin:
+      x: 3.5cm
+      y: 3cm
+    fontsize: 11pt
+    toc: true
+    toc-title: "Inhalt"
+    section-numbering: ""
+    number-sections: false
