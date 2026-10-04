@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 book:
-  title: "Freiheit, Gleichheit, Überforderung."
+  title: "Freiheit, Gleichheit, Überforderung"
   author: "kuratiert von Markus Oermann"
   date: "2026-10-04"
   date-format: "MMMM YYYY"
