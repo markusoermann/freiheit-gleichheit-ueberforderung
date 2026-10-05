@@ -17,7 +17,8 @@ book:
     - chapters/kap-01.qmd
     # END chapters
   page-footer:
-    center: "© 2026 Markus Oermann · Alle Rechte vorbehalten · frei lesbar und verlinkbar"
+    left: "Erstellt mit KI und kuratiert von Markus Oermann"
+    right: "© 2026 · Alle Rechte vorbehalten, frei lesbar und verlinkbar"
 
 lang: de
 
