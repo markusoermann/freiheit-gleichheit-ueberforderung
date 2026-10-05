@@ -1,3 +1,5 @@
+{{< pagebreak >}}
+
 # Vorwort: Wie dieses Buch entstanden ist und für wen {.unnumbered}
 
 Dieses Buch soll, neben allem, was es inhaltlich sagt, vor allem als Beleg dafür dienen, was ein diszipliniert geführtes KI-Setup heute leisten kann, wenn ein Mensch nicht mehr in erster Linie schreibt, sondern kuratiert, prüft und verantwortet.

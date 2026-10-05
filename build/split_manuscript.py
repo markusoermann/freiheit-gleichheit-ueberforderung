@@ -21,9 +21,22 @@ QUARTO = PROJ / "_quarto.yml"
 
 # Buch-spezifische Ueberschriften (ueberschreiben die Manuskript-Headings).
 TITLE_OVERRIDES = {
-    "einleitung": "Einleitung",
-    "kap-01": "Das Versprechen der Moderne",
+    "einleitung": "Einleitung: Das Gefühl und der Bogen",
 }
+
+
+def book_title(key, heading):
+    """Buch-Ueberschrift ableiten: explizite Overrides zuerst; fuer nummerierte
+    Kapitel das 'Kapitel N —'-Praefix entfernen und nur den Teil hinter dem
+    Doppelpunkt fuehren (falls vorhanden)."""
+    if key in TITLE_OVERRIDES:
+        return TITLE_OVERRIDES[key]
+    if key.startswith("kap-"):
+        t = re.sub(r"^\s*Kapitel\s+\d+\s*[—–:\-]\s*", "", heading).strip()
+        if ":" in t:
+            t = t.split(":", 1)[1].strip()
+        return t
+    return heading
 
 
 def parse_chapters(text):
@@ -71,21 +84,18 @@ def key_order(heading, titel):
     return (slug or "kapitel", 99)
 
 
-def clean_body(body, title_override=None):
-    """Drop pre-heading content (e.g. the Vorwort epigraph), set the chapter H1
-    (optionally overridden for the book), mark it unnumbered, and remove the
-    manual '## Anmerkungen' heading (Quarto renders the footnotes itself)."""
+def clean_body(body, title):
+    """Drop pre-heading content (e.g. the Vorwort epigraph), set the (book-)title
+    as unnumbered H1, remove the manual '## Anmerkungen' heading (Quarto renders
+    the footnotes itself) and start each chapter on a new PDF page."""
     for i, l in enumerate(body):
         if l.startswith("# "):
             body = body[i:]
             break
     if body and body[0].startswith("# "):
-        if title_override:
-            body[0] = f"# {title_override} {{.unnumbered}}"
-        elif "{" not in body[0]:
-            body[0] = body[0].rstrip() + " {.unnumbered}"
+        body[0] = f"# {title} {{.unnumbered}}"
     out = [l for l in body if not re.match(r"##\s+Anmerkungen\s*$", l)]
-    return "\n".join(out).strip() + "\n"
+    return "{{< pagebreak >}}\n\n" + "\n".join(out).strip() + "\n"
 
 
 def main():
@@ -105,7 +115,7 @@ def main():
     for ch in sorted(chapters, key=lambda c: c["order"]):
         if ch["key"] in released:
             (CHAPTERS / f'{ch["key"]}.qmd').write_text(
-                clean_body(ch["body"], TITLE_OVERRIDES.get(ch["key"])), encoding="utf-8")
+                clean_body(ch["body"], book_title(ch["key"], ch["heading"])), encoding="utf-8")
             written.append(ch)
 
     chap_lines = ["    - index.qmd"] + [f'    - chapters/{c["key"]}.qmd' for c in written]
