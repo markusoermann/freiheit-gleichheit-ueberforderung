@@ -1,7 +1,13 @@
+---
+title: "Start"
+---
+
+[kuratiert von Markus Oermann]{.curator-byline}
+
 ::: {.book-epigraph}
-> It's been a long
-> A long time coming, but I know
-> A change gon′ come
+> It's been a long\
+> A long time coming, but I know\
+> A change gon′ come\
 > Oh yes, it will
 
 — Sam Cooke
@@ -17,9 +23,9 @@ Es handelt von der Kluft zwischen dem Versprechen der Moderne — Freiheit und G
 und der gelebten Erfahrung von Überforderung in der digitalen Gegenwart. Kein
 Niedergangs-, kein Fortschrittsnarrativ, sondern der Versuch, die Gegenwart zu verstehen.
 
-**Kuratiert von Markus Oermann.** Das Buch versteht sich zugleich als Beleg dafür, was ein
-diszipliniert geführtes KI-Setup leisten kann, wenn ein Mensch nicht mehr in erster Linie
-schreibt, sondern kuratiert, prüft und verantwortet. Mehr dazu im [Vorwort](chapters/vorwort.qmd).
+Das Buch versteht sich zugleich als Beleg dafür, was ein diszipliniert geführtes KI-Setup
+leisten kann, wenn ein Mensch nicht mehr in erster Linie schreibt, sondern kuratiert, prüft
+und verantwortet. Mehr dazu im [Vorwort](chapters/vorwort.qmd).
 
 Nutzen Sie die Navigation links, um durch die bisher veröffentlichten Kapitel zu blättern.
 

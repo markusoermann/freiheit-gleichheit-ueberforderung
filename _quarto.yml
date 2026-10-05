@@ -4,9 +4,6 @@ project:
 
 book:
   title: "Freiheit, Gleichheit, Überforderung"
-  author: "kuratiert von Markus Oermann"
-  date: "2026-10-04"
-  date-format: "MMMM YYYY"
   output-file: "freiheit-gleichheit-ueberforderung"
   downloads: [pdf]
   search: true
@@ -38,10 +35,17 @@ format:
   typst:
     papersize: a4
     margin:
-      x: 3.5cm
-      y: 3cm
+      x: 4cm
+      y: 3.2cm
+    mainfont: "Inter"
+    font-paths: ["assets/fonts"]
     fontsize: 11pt
+    linestretch: 1.5
+    linkcolor: "#2f6690"
     toc: true
     toc-title: "Inhalt"
     section-numbering: ""
     number-sections: false
+    template-partials:
+      - assets/typst/typst-template.typ
+      - assets/typst/typst-show.typ
