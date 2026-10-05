@@ -1,4 +1,4 @@
-# Einleitung: Das Gewicht des Versprechens {.unnumbered}
+# Einleitung {.unnumbered}
 
 Es ist kurz nach sechs. Der Wecker hat nicht geklingelt. Das Smartphone hat vibriert, lautlos, aber bestimmt, wie es sich für ein Gerät gehört, das seinen Besitzer besser kennt als dessen engste Freunde. Die Hand greift danach, noch bevor die Augen richtig offen sind. Ein Reflex, kein Entschluss. Auf dem Sperrbildschirm: drei Nachrichten, zwei Erinnerungen, eine Benachrichtigung der Krankenkasse. Darunter, klein, aber bestimmt: die Zusammenfassung der Schlafqualität. Sieben Stunden, zweiunddreißig Minuten. Erholungsindex: mäßig. Man hat also nicht besonders gut geschlafen, das weiß man jetzt objektiv, belegt durch Sensoren, berechnet durch einen Algorithmus, dessen Funktionsweise man nicht kennt. Man ahnte es schon in den ersten bewussten Sekunden des Tages. Jetzt hat man es schwarz auf weiß, und das Wissen macht den Morgen ein wenig schwerer.
 

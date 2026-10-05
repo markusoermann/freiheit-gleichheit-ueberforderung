@@ -19,6 +19,12 @@ CHAPTERS = PROJ / "chapters"
 RELEASED = PROJ / "build" / "released.txt"
 QUARTO = PROJ / "_quarto.yml"
 
+# Buch-spezifische Ueberschriften (ueberschreiben die Manuskript-Headings).
+TITLE_OVERRIDES = {
+    "einleitung": "Einleitung",
+    "kap-01": "Das Versprechen der Moderne",
+}
+
 
 def parse_chapters(text):
     """Return list of {titel, body(list of lines)} by detecting frontmatter
@@ -65,16 +71,19 @@ def key_order(heading, titel):
     return (slug or "kapitel", 99)
 
 
-def clean_body(body):
-    """Drop pre-heading content (e.g. the Vorwort epigraph), mark the chapter
-    H1 as unnumbered (author headings already carry 'Kapitel N'), and remove the
+def clean_body(body, title_override=None):
+    """Drop pre-heading content (e.g. the Vorwort epigraph), set the chapter H1
+    (optionally overridden for the book), mark it unnumbered, and remove the
     manual '## Anmerkungen' heading (Quarto renders the footnotes itself)."""
     for i, l in enumerate(body):
         if l.startswith("# "):
             body = body[i:]
             break
-    if body and body[0].startswith("# ") and "{" not in body[0]:
-        body[0] = body[0].rstrip() + " {.unnumbered}"
+    if body and body[0].startswith("# "):
+        if title_override:
+            body[0] = f"# {title_override} {{.unnumbered}}"
+        elif "{" not in body[0]:
+            body[0] = body[0].rstrip() + " {.unnumbered}"
     out = [l for l in body if not re.match(r"##\s+Anmerkungen\s*$", l)]
     return "\n".join(out).strip() + "\n"
 
@@ -95,7 +104,8 @@ def main():
     written = []
     for ch in sorted(chapters, key=lambda c: c["order"]):
         if ch["key"] in released:
-            (CHAPTERS / f'{ch["key"]}.qmd').write_text(clean_body(ch["body"]), encoding="utf-8")
+            (CHAPTERS / f'{ch["key"]}.qmd').write_text(
+                clean_body(ch["body"], TITLE_OVERRIDES.get(ch["key"])), encoding="utf-8")
             written.append(ch)
 
     chap_lines = ["    - index.qmd"] + [f'    - chapters/{c["key"]}.qmd' for c in written]

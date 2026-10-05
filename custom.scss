@@ -45,6 +45,12 @@ blockquote {
 }
 
 // Titelei-Elemente auf der Startseite
+.curator-byline {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--ink-muted);
+  margin: 0.25rem 0 1.75rem;
+}
 .book-epigraph {
   margin: 2rem 0 2.5rem;
   color: var(--ink-muted);
