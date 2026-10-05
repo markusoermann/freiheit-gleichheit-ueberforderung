@@ -95,7 +95,7 @@ def clean_body(body, title):
     if body and body[0].startswith("# "):
         body[0] = f"# {title} {{.unnumbered}}"
     out = [l for l in body if not re.match(r"##\s+Anmerkungen\s*$", l)]
-    return "{{< pagebreak >}}\n\n" + "\n".join(out).strip() + "\n"
+    return "\n".join(out).strip() + "\n"
 
 
 def main():

@@ -1,4 +1,5 @@
-[erstellt mit KI und kuratiert von Markus Oermann]{.curator-byline}
+:::: {.content-visible when-format="html"}
+[Erstellt mit KI und kuratiert von Markus Oermann]{.curator-byline}
 
 ::: {.book-epigraph}
 > It's been a long\
@@ -9,28 +10,31 @@
 — Sam Cooke
 :::
 
-[Public Beta · Version 0.1]{.beta-badge} &nbsp; Stand: Oktober 2026
-
-Dieses Buch erscheint als **öffentliche Beta** — Kapitel für Kapitel, in Wellen über die
-nächsten Wochen. Was hier steht, ist lesbar, aber noch in Bewegung: Rückmeldungen sind
-willkommen und fließen in die weiteren Wellen ein.
-
-Es handelt von der Kluft zwischen dem Versprechen der Moderne — Freiheit und Gleichheit —
-und der gelebten Erfahrung von Überforderung in der digitalen Gegenwart. Kein
-Niedergangs-, kein Fortschrittsnarrativ, sondern der Versuch, die Gegenwart zu verstehen.
-
-Das Buch versteht sich zugleich als Beleg dafür, was ein diszipliniert geführtes KI-Setup
-leisten kann, wenn ein Mensch nicht mehr in erster Linie schreibt, sondern kuratiert, prüft
-und verantwortet. Mehr dazu im [Vorwort](chapters/vorwort.qmd).
-
-Nutzen Sie die Navigation links, um durch die bisher veröffentlichten Kapitel zu blättern.
-
-::: {.license-note}
-© 2026 Markus Oermann. Alle Rechte vorbehalten — frei lesbar und verlinkbar.
-:::
+[Public Beta · Version 0.1]{.beta-badge} &nbsp; Stand: 5. Oktober 2026
+::::
 
 ```{=typst}
+// === PDF-Titelei ===
+// Seite 1: nur der Haupttitel (aus dem Titelblock der Vorlage).
 #pagebreak()
+// Seite 2: Byline, dann Public-Beta-Zeile.
+#text(fill: rgb("#5b6670"))[Erstellt mit KI und kuratiert von Markus Oermann]
+#parbreak()
+#text(fill: rgb("#5b6670"))[Public Beta · Version 0.1 · Stand: 5. Oktober 2026]
+#pagebreak()
+// Seite 3: das Sam-Cooke-Motto allein.
+#v(1fr)
+#align(center, emph[
+It's been a long \
+A long time coming, but I know \
+A change gon′ come \
+Oh yes, it will
+])
+#v(0.6em)
+#align(center)[— Sam Cooke]
+#v(2fr)
+#pagebreak()
+// Seite 4: Inhalt.
 #text(size: 1.6em, weight: "semibold", fill: rgb("#11161c"))[Inhalt]
 #v(1em)
 #context {
@@ -44,4 +48,8 @@ Nutzen Sie die Navigation links, um durch die bisher veröffentlichten Kapitel z
     }
   }
 }
+// Ab hier (Vorwort): Seitenzahlen, beginnend mit 1.
+#pagebreak()
+#set page(numbering: "1")
+#counter(page).update(1)
 ```

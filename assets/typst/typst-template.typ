@@ -39,7 +39,7 @@
     author: authors.map(author => content-to-string(author.name)).join(", ", last: " & "),
   ) if authors != none and authors != ()
   set par(
-    justify: false,
+    justify: true,
     leading: linestretch * 0.65em
   )
   set text(lang: lang,
@@ -51,9 +51,21 @@
 
   // --- Buch-Design, an das HTML angeglichen ---
   set text(fill: rgb("#1b1f24"))
+  // Seitenzahlen zunaechst aus (Titelei); ab Vorwort in index.qmd eingeschaltet:
+  set page(numbering: none)
+  // Blocksatz nur fuer Fliesstext, nicht fuer Ueberschriften und Fussnoten:
+  show heading: set par(justify: false)
+  show footnote.entry: set par(justify: false)
   show heading: set text(fill: rgb("#11161c"))
-  // Grosszuegiger Abstand vor Haupt-Ueberschriften (HTML fliesst ebenfalls durch):
-  show heading.where(level: 1): set block(above: 2em, below: 0.9em)
+  // Jede Ebene-1-Ueberschrift mit Text beginnt auf neuer Seite, gefolgt von etwas
+  // groesserem Abstand; die leere Titelei-Ueberschrift wird uebersprungen:
+  show heading.where(level: 1): it => {
+    if it.body != [] {
+      pagebreak(weak: true)
+      it
+      v(0.9em)
+    }
+  }
 
   set heading(numbering: sectionnumbering)
 
@@ -69,15 +81,12 @@
 
   let has-title-block = title != none or (authors != none and authors != ()) or date != none or abstract != none
   if has-title-block {
-    place(
-      top,
-      float: true,
-      scope: "parent",
-      clearance: 4mm,
-      block(below: 1em, width: 100%)[
+    block(below: 1em, width: 100%)[
 
         #if title != none {
           align(center, block(inset: 2em)[
+            #set par(justify: false)
+            #set text(hyphenate: false)
             #set par(leading: heading-line-height) if heading-line-height != none
             #set text(font: heading-family) if heading-family != none
             #set text(weight: heading-weight)
@@ -123,7 +132,6 @@
           ]
         }
       ]
-    )
   }
 
   if toc {
