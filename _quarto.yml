@@ -32,6 +32,15 @@ format:
     smooth-scroll: true
     anchor-sections: true
     link-external-newwindow: true
+    include-after-body:
+      text: |
+        <script>
+        window.addEventListener('DOMContentLoaded', function () {
+          document.querySelectorAll('a').forEach(function (a) {
+            if (a.textContent.trim() === 'index.html') a.textContent = 'Start';
+          });
+        });
+        </script>
   typst:
     papersize: a4
     margin:
@@ -42,8 +51,7 @@ format:
     fontsize: 11pt
     linestretch: 1.5
     linkcolor: "#2f6690"
-    toc: true
-    toc-title: "Inhalt"
+    toc: false
     section-numbering: ""
     number-sections: false
     template-partials:

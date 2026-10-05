@@ -1,8 +1,4 @@
----
-title: "Start"
----
-
-[kuratiert von Markus Oermann]{.curator-byline}
+[erstellt mit KI und kuratiert von Markus Oermann]{.curator-byline}
 
 ::: {.book-epigraph}
 > It's been a long\
@@ -32,3 +28,20 @@ Nutzen Sie die Navigation links, um durch die bisher veröffentlichten Kapitel z
 ::: {.license-note}
 © 2026 Markus Oermann. Alle Rechte vorbehalten — frei lesbar und verlinkbar.
 :::
+
+```{=typst}
+#pagebreak()
+#text(size: 1.6em, weight: "semibold", fill: rgb("#11161c"))[Inhalt]
+#v(1em)
+#context {
+  for hd in query(heading.where(level: 1)) {
+    if hd.body != [] {
+      let loc = hd.location()
+      let pg = counter(page).at(loc).first()
+      [#link(loc)[#hd.body]#h(1fr)#link(loc)[#pg]]
+      linebreak()
+      v(0.5em)
+    }
+  }
+}
+```
