@@ -1,6 +1,8 @@
 :::: {.content-visible when-format="html"}
 [Erstellt mit KI und kuratiert von Markus Oermann]{.curator-byline}
 
+[Public Beta · Version 0.1]{.beta-badge} &nbsp; Stand: 5. Oktober 2026
+
 ::: {.book-epigraph}
 > It's been a long\
 > A long time coming, but I know\
@@ -9,8 +11,6 @@
 
 — Sam Cooke
 :::
-
-[Public Beta · Version 0.1]{.beta-badge} &nbsp; Stand: 5. Oktober 2026
 ::::
 
 ```{=typst}
