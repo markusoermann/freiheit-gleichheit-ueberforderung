@@ -1,8 +1,8 @@
 # Freiheit, Gleichheit, Überforderung. — Public Beta
 
 Öffentliche Beta-Ausgabe des Buches, **kuratiert von Markus Oermann**. Erscheint
-wellenweise, Kapitel für Kapitel, als Quarto-Website (HTML), später zusätzlich als PDF
-und vollständiges EPUB.
+wellenweise, Kapitel für Kapitel, als Quarto-Website (HTML), zusätzlich als PDF
+und später auch als vollständiges EPUB.
 
 ## Design-Entscheidungen (Spec)
 
@@ -36,6 +36,5 @@ quarto render                       # Build nach _site/
 
 ## Noch offen (spätere Wellen)
 
-- PDF (Typst) und vollständiges **EPUB**.
-- **Personenregister** und **Schlagwortverzeichnis** (am Ende der Wellen).
-- Social-Media-Posts je Welle (Kapitel-Zusammenfassungen).
+- vollständiges **EPUB**.
+- **Personenregister** und **Schlagwortverzeichnis** (am Ende der Wellen)
