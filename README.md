@@ -1,40 +1,47 @@
-# Freiheit, Gleichheit, Überforderung. — Public Beta
+# Freiheit, Gleichheit, Überforderung
 
-Öffentliche Beta-Ausgabe des Buches, **kuratiert von Markus Oermann**. Erscheint
-wellenweise, Kapitel für Kapitel, als Quarto-Website (HTML), zusätzlich als PDF
-und später auch als vollständiges EPUB.
+**Öffentliche Beta-Ausgabe**, kuratiert von Prof. Dr. Markus Oermann.
 
-## Design-Entscheidungen (Spec)
+**[→ Jetzt online lesen](https://markusoermann.github.io/freiheit-gleichheit-ueberforderung/)**
 
-- **Quarto-Book-Projekt** als Single Source: aus einer Quelle entstehen HTML-Site (ein
-  Kapitel = eine verlinkte Seite), PDF und EPUB.
-- **Single Source of Truth = das private Manuskript** `manuskript-final.md`. Dieses Repo
-  enthält nur die daraus erzeugten, bereits **freigegebenen** Kapitel.
-- **Design:** kühl-minimalistisch, serifenlos (Inter), ein Stahlblau-Akzent (`#2f6690`).
-  Kein THWS-Logo, kein THWS-Farbschema. (`custom.scss`)
-- **Kurator-Framing durchgehend:** „kuratiert von Markus Oermann" statt Autorenzeile.
-- **Lizenz:** © 2026 Markus Oermann. Alle Rechte vorbehalten — frei lesbar und verlinkbar.
-- **Wellen-Publishing:** `build/released.txt` steuert, welche Kapitel überhaupt erzeugt und
-  in `_quarto.yml` verlinkt werden. Nicht freigegebene Kapitel landen nie im öffentlichen Repo.
+## Worum es geht
 
-## Eine neue Welle veröffentlichen
+Wir leben in der formal freiesten und gleichsten Gesellschaft, die es je gab, und
+trotzdem fühlt sich der Alltag für viele Menschen nicht danach an. Dieses Buch geht
+der Frage nach, warum: Es argumentiert, dass das Freiheits- und Gleichheitsversprechen
+der Moderne nicht gebrochen ist, sondern dass die Bedingungen, unter denen wir es in
+der digitalen Spätmoderne täglich neu einlösen sollen, systematisch überfordern. Wer
+sich von der Steuererklärung bis zur eigenen Datenfreigabe überfordert fühlt, versagt
+nach der These dieses Buches nicht persönlich. Er oder sie reagiert angemessen auf
+eine unangemessene Zumutung.
 
-1. Kapitel-Key(s) in `build/released.txt` ergänzen (z. B. `kap-02`).
-2. `python3 build/split_manuscript.py` — erzeugt die `.qmd` und aktualisiert die
-   Kapitelliste in `_quarto.yml`.
-3. `quarto preview` (lokal prüfen) bzw. `quarto render`.
-4. `git add -A && git commit && git push` — GitHub Actions rendert und veröffentlicht auf
-   GitHub Pages.
+Das Buch ist in drei Gedankenbögen gegliedert: Herkunft und Widersprüche des
+Freiheitsversprechens, seine Belastung durch die digitale Gegenwart, und die Frage,
+was institutionell daraus folgen könnte. Es richtet sich nicht an ein Fachpublikum
+und setzt keine juristischen oder soziologischen Vorkenntnisse voraus.
 
-## Lokal bauen
+## Stand
 
-```bash
-python3 build/split_manuscript.py   # Kapitel aus dem Manuskript erzeugen
-quarto preview                      # lokale Vorschau
-quarto render                       # Build nach _site/
-```
+Das Buch erscheint kapitelweise. Aktuell online:
 
-## Noch offen (spätere Wellen)
+- Vorwort
+- Einleitung: Das Gefühl und der Bogen
+- Kapitel 1: Das Versprechen der Moderne
 
-- vollständiges **EPUB**.
-- **Personenregister** und **Schlagwortverzeichnis** (am Ende der Wellen)
+Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
+folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
+
+## Über den Autor
+
+Prof. Dr. iur. Markus Oermann, M.A. ist Inhaber der Stiftungsprofessur für Digitale
+Ethik und Medienrecht an der THWS, Fakultät Informatik und Wirtschaftsinformatik.
+[Mehr zur Person](https://fiw.thws.de/fakultaet/personen/dozentinnen-und-dozenten/person/prof-dr-markus-oermann/)
+
+## Feedback
+
+Dies ist eine Beta-Ausgabe. Hinweise, Fragen und Kritik gerne über
+[Issues](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung/issues).
+
+## Lizenz
+
+© 2026 Markus Oermann. Alle Rechte vorbehalten, frei lesbar und verlinkbar.
