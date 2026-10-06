@@ -17,7 +17,7 @@ book:
     - chapters/kap-01.qmd
     # END chapters
   page-footer:
-    left: "Erstellt mit KI und kuratiert von Markus Oermann"
+    left: "Erstellt mit KI und kuratiert von [Markus Oermann](https://fiw.thws.de/fakultaet/personen/dozentinnen-und-dozenten/person/prof-dr-markus-oermann/)"
     right: "© 2026 · Alle Rechte vorbehalten, frei lesbar und verlinkbar"
 
 lang: de
