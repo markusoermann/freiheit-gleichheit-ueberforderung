@@ -31,11 +31,20 @@ Das Buch erscheint kapitelweise. Aktuell online:
 Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
 folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
 
-## Über den Autor
+## Über den Kurator
 
 Prof. Dr. iur. Markus Oermann, M.A. ist Inhaber der Stiftungsprofessur für Digitale
 Ethik und Medienrecht an der THWS, Fakultät Informatik und Wirtschaftsinformatik.
 [Mehr zur Person](https://fiw.thws.de/fakultaet/personen/dozentinnen-und-dozenten/person/prof-dr-markus-oermann/)
+
+Grundlage des Buches ist ein über Jahre gewachsenes, in Obsidian geführtes zweites
+Gedächtnis sowie das [LegalLLMWiki](https://github.com/markusoermann/LegalLLMWiki):
+ein von KI-Agenten gepflegtes Wiki, das Rohquellen aus Zotero in belegte
+Konzeptseiten verdichtet, damit juristische und empirische Aussagen im Buch auf
+nachvollziehbaren Quellen beruhen statt auf der Plausibilität eines Sprachmodells.
+Die KI sichtet, verdichtet und liefert Rohfassungen; gelesen, geprüft, ausgewählt,
+oft umgeschrieben und verantwortet ist jedes Kapitel von Markus Oermann selbst.
+Daher „kuratiert von", nicht „verfasst von".
 
 ## Feedback
 
