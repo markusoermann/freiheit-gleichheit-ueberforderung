@@ -15,9 +15,11 @@ book:
     - chapters/vorwort.qmd
     - chapters/einleitung.qmd
     - chapters/kap-01.qmd
+    - chapters/kap-02.qmd
     # END chapters
   page-footer:
     left: "Erstellt mit KI und kuratiert von [Markus Oermann](https://fiw.thws.de/fakultaet/personen/dozentinnen-und-dozenten/person/prof-dr-markus-oermann/)"
+    center: "[Korrekturvorschläge über GitHub](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung)"
     right: "© 2026 · Alle Rechte vorbehalten, frei lesbar und verlinkbar"
 
 lang: de

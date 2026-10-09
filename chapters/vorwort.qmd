@@ -15,3 +15,11 @@ Genau das war der Punkt der Übung: das eigene Denken durch die Maschine zu erwe
 Bleibt die Frage, für wen das alles geschrieben ist. Nicht für ein Fachpublikum. Dieses Buch setzt weder juristische noch soziologische Vorkenntnisse voraus; wo es Fachbegriffe verwendet, erklärt es sie verständlich, so hoffe ich. Es richtet sich an alle Leserinnen und Leser, die den Verdacht teilen, dass mit dem Freiheitsversprechen der Gegenwart etwas nicht stimmt, und die sich mit der Annahme nicht zufriedengeben wollen, es liege an ihnen selbst. An mangelnder Disziplin, an zu viel Bildschirmzeit, an der falschen inneren Einstellung. Wer beruflich mit digitaler Technik, mit Recht, mit Bildung oder mit Politik zu tun hat, wird vieles wiedererkennen. Nötig ist das nicht. Nötig ist allein die Bereitschaft, eine Diagnose auszuhalten, die keine einfache Lösung verspricht, und die Neugier, ob sich aus ihr trotzdem eine Haltung gewinnen lässt. Der Mehrwert, den ich mir erhoffe, ist deshalb kein Programm, sondern eine Schärfung des Blicks: dass man hinterher genauer unterscheiden kann, was am eigenen Unbehagen persönliches Versagen ist und was strukturelle Zumutung.
 
 Markus Oermann
+
+::: {.content-visible when-format="html"}
+::: {.callout-note appearance="simple" title="Mitlesen und verbessern"}
+Diese Ausgabe erscheint als öffentliche Beta, Kapitel für Kapitel. Das heißt auch, dass sie noch nicht fertig ist und besser wird, wenn Sie mitlesen. Wenn Ihnen ein Fehler auffällt oder eine Quelle nicht trägt, können Sie das direkt vorschlagen. Das vollständige Manuskript liegt offen auf GitHub. Dort lässt sich jede Beobachtung als Hinweis festhalten (ein „Issue“) oder als konkrete Textänderung einreichen (ein „Pull Request“). Wer mit diesen Werkzeugen nicht vertraut ist, schreibt einfach eine kurze Notiz auf der Issue-Seite; Vorkenntnisse sind nicht nötig.
+
+[Zum Repository auf GitHub](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung)
+:::
+:::
