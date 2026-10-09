@@ -24,6 +24,18 @@ TITLE_OVERRIDES = {
     "einleitung": "Einleitung: Das Gefühl und der Bogen",
 }
 
+# Web-only Beta-Hinweis, der ans Ende des Vorworts gehaengt wird (nur HTML, nicht PDF).
+# Liegt hier statt im Manuskript, damit das Manuskript (Single Source of Truth) frei von
+# Publikations-Scaffolding bleibt und der Hinweis jede Welle automatisch ueberlebt.
+VORWORT_BETA_NOTE = """::: {.content-visible when-format="html"}
+::: {.callout-note appearance="simple" title="Mitlesen und verbessern"}
+Diese Ausgabe erscheint als öffentliche Beta, Kapitel für Kapitel. Das heißt auch, dass sie noch nicht fertig ist und besser wird, wenn Sie mitlesen. Wenn Ihnen ein Fehler auffällt oder eine Quelle nicht trägt, können Sie das direkt vorschlagen. Das vollständige Manuskript liegt offen auf GitHub. Dort lässt sich jede Beobachtung als Hinweis festhalten (ein „Issue“) oder als konkrete Textänderung einreichen (ein „Pull Request“). Wer mit diesen Werkzeugen nicht vertraut ist, schreibt einfach eine kurze Notiz auf der Issue-Seite; Vorkenntnisse sind nicht nötig.
+
+[Zum Repository auf GitHub](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung)
+:::
+:::
+"""
+
 
 def book_title(key, heading):
     """Buch-Ueberschrift ableiten: explizite Overrides zuerst; fuer nummerierte
@@ -114,8 +126,16 @@ def main():
     written = []
     for ch in sorted(chapters, key=lambda c: c["order"]):
         if ch["key"] in released:
-            (CHAPTERS / f'{ch["key"]}.qmd').write_text(
-                clean_body(ch["body"], book_title(ch["key"], ch["heading"])), encoding="utf-8")
+            content = clean_body(ch["body"], book_title(ch["key"], ch["heading"]))
+            # Fussnoten-Labels pro Kapitel eindeutig praefixen. Im Manuskript startet
+            # jedes Kapitel bei [^1]; im kombinierten Buch-PDF (ein Pandoc-Dokument)
+            # kollidieren diese Labels sonst ("Duplicate note reference"), und spaetere
+            # Kapitel ueberschreiben die Fussnoten frueherer. Im seitenweisen HTML
+            # unkritisch, aber hier einheitlich fuer beide Formate.
+            content = re.sub(r"\[\^(\d+)\]", rf'[^{ch["key"]}-\1]', content)
+            if ch["key"] == "vorwort":
+                content = content.rstrip() + "\n\n" + VORWORT_BETA_NOTE.strip() + "\n"
+            (CHAPTERS / f'{ch["key"]}.qmd').write_text(content, encoding="utf-8")
             written.append(ch)
 
     chap_lines = ["    - index.qmd"] + [f'    - chapters/{c["key"]}.qmd' for c in written]
