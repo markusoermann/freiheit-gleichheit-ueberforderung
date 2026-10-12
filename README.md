@@ -28,6 +28,7 @@ Das Buch erscheint kapitelweise. Aktuell online:
 - Einleitung: Das Gefühl und der Bogen
 - Kapitel 1: Das Versprechen der Moderne
 - Kapitel 2: Mehr Auswahl, weniger Freiheitserfahrung
+- Kapitel 3: Anerkennung und strukturelle Barrieren
 
 Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
 folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
