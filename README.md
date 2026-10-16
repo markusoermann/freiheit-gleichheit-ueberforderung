@@ -29,6 +29,7 @@ Das Buch erscheint kapitelweise. Aktuell online:
 - Kapitel 1: Das Versprechen der Moderne
 - Kapitel 2: Mehr Auswahl, weniger Freiheitserfahrung
 - Kapitel 3: Anerkennung und strukturelle Barrieren
+- Kapitel 4: Schwindende Freiheitserfahrung in der digitalen Gesellschaft
 
 Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
 folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
