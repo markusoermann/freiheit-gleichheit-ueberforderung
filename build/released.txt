@@ -19,3 +19,6 @@ kap-04
 
 # --- Welle 5 ---
 kap-05
+
+# --- Welle 6 ---
+kap-06
