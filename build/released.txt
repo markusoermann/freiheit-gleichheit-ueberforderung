@@ -22,3 +22,6 @@ kap-05
 
 # --- Welle 6 ---
 kap-06
+
+# --- Welle 7 ---
+kap-07
