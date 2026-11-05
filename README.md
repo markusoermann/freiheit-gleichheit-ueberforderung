@@ -35,6 +35,7 @@ Das Buch erscheint kapitelweise. Aktuell online:
 - Kapitel 7: Plattformmacht, Öffentlichkeit und neue Sichtbarkeitslogiken
 - Kapitel 8: Das überforderte Selbst
 - Kapitel 9: Regulative des Möglichen
+- Kapitel 10: Relational, eingebettet, verantwortlich
 
 Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
 folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
