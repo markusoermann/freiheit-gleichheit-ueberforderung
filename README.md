@@ -36,6 +36,7 @@ Das Buch erscheint kapitelweise. Aktuell online:
 - Kapitel 8: Das überforderte Selbst
 - Kapitel 9: Regulative des Möglichen
 - Kapitel 10: Relational, eingebettet, verantwortlich
+- Kapitel 11: Institutionelle Antworten
 
 Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
 folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
