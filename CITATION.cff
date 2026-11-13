@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Wenn Sie dieses Buch zitieren, verwenden Sie bitte die folgenden Angaben."
+title: "Freiheit, Gleichheit, Überforderung"
+abstract: "Ein populärwissenschaftliches Sachbuch über die Kluft zwischen dem Freiheits- und Gleichheitsversprechen der Moderne und der gelebten Erfahrung von Überforderung in der digitalen Spätmoderne."
+authors:
+  - family-names: "Oermann"
+    given-names: "Markus"
+    affiliation: "Technische Hochschule Würzburg-Schweinfurt (THWS)"
+    orcid: "https://orcid.org/0009-0008-3082-9609"
+url: "https://markusoermann.github.io/freiheit-gleichheit-ueberforderung/"
+repository-code: "https://github.com/markusoermann/freiheit-gleichheit-ueberforderung"
+keywords:
+  - "Freiheit"
+  - "Gleichheit"
+  - "Digitalisierung"
+  - "Digitale Ethik"
+  - "Künstliche Intelligenz"
+preferred-citation:
+  type: book
+  title: "Freiheit, Gleichheit, Überforderung"
+  authors:
+    - family-names: "Oermann"
+      given-names: "Markus"
+      affiliation: "Technische Hochschule Würzburg-Schweinfurt (THWS)"
+      orcid: "https://orcid.org/0009-0008-3082-9609"
+  year: 2026
+  version: "1.0"
+  publisher:
+    name: "Zenodo"
+  url: "https://markusoermann.github.io/freiheit-gleichheit-ueberforderung/"
+  doi: "10.5281/zenodo.24189042"

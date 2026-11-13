@@ -1,0 +1,41 @@
+{
+    "title": "Freiheit, Gleichheit, Überforderung",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "description": "„Freiheit, Gleichheit, Überforderung“ ist ein populärwissenschaftliches Sachbuch über die Kluft zwischen dem Versprechen der Moderne und der gelebten Erfahrung in der digitalen Spätmoderne. Es geht der Frage nach, warum sich das Leben in einer Epoche maximaler formaler Freiheit für viele Menschen so oft nicht frei anfühlt. Die These lautet, dass das Freiheits- und Gleichheitsversprechen nicht gebrochen ist, dass aber die Bedingungen, unter denen es täglich eingelöst werden soll, systematisch überfordern. Wer sich von der Steuererklärung bis zur eigenen Datenfreigabe überfordert fühlt, versagt nicht persönlich, sondern reagiert angemessen auf eine unangemessene Zumutung.\n\nDas Buch ist in drei Gedankenbögen gegliedert. Der erste rekonstruiert Herkunft und innere Widersprüche des Freiheits- und Gleichheitsversprechens von Locke, Rousseau und Kant über Mill bis zu Berlin sowie seine historischen Einlösungsversuche. Der zweite zeigt, wie Aufmerksamkeitsökonomie, algorithmische Steuerung, soziale Beschleunigung und die stille Macht der Plattformen diese Erfahrung unter digitalen Bedingungen verformen, und begreift Überforderung als Systemzustand statt als individuelles Versagen. Der dritte fragt nach institutionellen Antworten und nach einer Freiheit, die relational, eingebettet und verantwortlich gedacht wird, ohne dabei in Zynismus oder Naivität zu verfallen.\n\nDas Buch richtet sich an ein nichtakademisches Publikum und setzt keine juristischen oder soziologischen Vorkenntnisse voraus. Es ist in enger Zusammenarbeit mit KI entstanden, kuratiert und verantwortet von Markus Oermann, und erscheint als öffentliche Beta. Das vollständige Manuskript liegt offen auf GitHub; Hinweise und Korrekturen sind über Issues und Pull Requests möglich.\n\n© 2026 Markus Oermann. Alle Rechte vorbehalten, frei zugänglich zum Lesen und Verlinken.",
+    "language": "deu",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Oermann, Markus",
+            "affiliation": "Technische Hochschule Würzburg-Schweinfurt (THWS)",
+            "orcid": "0009-0008-3082-9609"
+        }
+    ],
+    "keywords": [
+        "Freiheit",
+        "Gleichheit",
+        "Überforderung",
+        "Digitalisierung",
+        "Digitale Ethik",
+        "Spätmoderne",
+        "Autonomie",
+        "Plattformmacht",
+        "Künstliche Intelligenz",
+        "Algorithmische Governance",
+        "Aufmerksamkeitsökonomie",
+        "Gesellschaftstheorie"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://markusoermann.github.io/freiheit-gleichheit-ueberforderung/",
+            "relation": "isIdenticalTo",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://github.com/markusoermann/freiheit-gleichheit-ueberforderung",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        }
+    ]
+}

@@ -100,3 +100,15 @@ blockquote {
   line-height: 1.0;
   break-inside: avoid;
 }
+
+// Zitier-Box auf der Startseite (DOI wird nach dem Zenodo-Minting ergaenzt)
+.cite-box {
+  margin: 2.5rem 0 1rem;
+  padding: 0.9rem 1.1rem;
+  background: #f7f9fa;
+  border: 1px solid $border-color;
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
+  font-size: 0.92rem;
+}
+.cite-box p { margin: 0.35rem 0; }
