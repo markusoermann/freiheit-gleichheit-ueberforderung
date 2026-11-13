@@ -11,6 +11,12 @@
 
 — Sam Cooke
 :::
+
+::: {.cite-box}
+**So zitierst du dieses Buch**
+
+Markus Oermann (2026): *Freiheit, Gleichheit, Überforderung.* Version 1.0, Zenodo. DOI: [10.5281/zenodo.24189042](https://doi.org/10.5281/zenodo.24189042).
+:::
 ::::
 
 ```{=typst}
@@ -21,6 +27,11 @@
 #text(fill: rgb("#5b6670"))[Erstellt mit KI und kuratiert von Markus Oermann]
 #parbreak()
 #text(fill: rgb("#5b6670"))[Public Beta · Version 0.12 · Stand: 9. November 2026]
+#parbreak()
+#v(0.6em)
+#text(size: 0.85em, fill: rgb("#5b6670"))[© 2026 Markus Oermann. Alle Rechte vorbehalten, frei zugänglich zum Lesen und Verlinken.]
+#parbreak()
+#text(size: 0.85em, fill: rgb("#5b6670"))[DOI: 10.5281/zenodo.24189042 · https://doi.org/10.5281/zenodo.24189042]
 #pagebreak()
 // Seite 3: das Sam-Cooke-Motto allein.
 #v(1fr)

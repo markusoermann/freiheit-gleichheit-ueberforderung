@@ -4,6 +4,9 @@
 
 **[→ Jetzt online lesen](https://markusoermann.github.io/freiheit-gleichheit-ueberforderung/)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24189042.svg)](https://doi.org/10.5281/zenodo.24189042)
+
+
 ## Worum es geht
 
 Wir leben in der formal freiesten und gleichsten Gesellschaft, die es je gab, und
@@ -63,6 +66,14 @@ Daher „kuratiert von", nicht „verfasst von".
 
 Dies ist eine Beta-Ausgabe. Hinweise, Fragen und Kritik gerne über
 [Issues](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung/issues).
+
+## Zitieren
+
+Zitiervorschlag:
+
+> Markus Oermann (2026): *Freiheit, Gleichheit, Überforderung.* Version 1.0, Zenodo. https://doi.org/10.5281/zenodo.24189042
+
+Einen maschinenlesbaren Zitierhinweis enthält die Datei [`CITATION.cff`](CITATION.cff) (GitHub-Schaltfläche „Cite this repository").
 
 ## Lizenz
 
