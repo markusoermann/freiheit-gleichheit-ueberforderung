@@ -1,6 +1,132 @@
 # Personenregister {.unnumbered}
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden when-format="epub"}
+::: {.content-visible when-format="html"}
+::: {.register-columns}
+Bateson, Gregory, [69](kap-05.html)
+
+Bauman, Zygmunt, [27](kap-02.html), [29](kap-02.html), [156](kap-10.html), [157](kap-10.html)
+
+Benkler, Yochai, [100](kap-07.html)
+
+Berlin, Isaiah, [14](kap-01.html), [15](kap-01.html), [31](kap-02.html), [108](kap-07.html)
+
+Bloch, Ernst, [142](kap-09.html), [152](kap-09.html)
+
+Burke, Tarana, [45](kap-03.html)
+
+Castells, Manuel, [112](kap-07.html)
+
+Couldry, Nick, [105](kap-07.html)
+
+Ehrenberg, Alain, [123](kap-08.html), [124](kap-08.html)
+
+Floridi, Luciano, [75](kap-05.html)
+
+Foucault, Michel, [56](kap-04.html), [125](kap-08.html)
+
+Fraser, Nancy, [44](kap-03.html), [46](kap-03.html), [103](kap-07.html)
+
+Fricker, Miranda, [118](kap-07.html), [119](kap-07.html)
+
+Friston, Karl, [137](kap-08.html)
+
+Fromm, Erich, [14](kap-01.html), [30](kap-02.html), [31](kap-02.html), [32](kap-02.html), [83](kap-05.html), [156](kap-10.html)
+
+Habermas, Jürgen, [101](kap-07.html), [102](kap-07.html), [147](kap-09.html), [157](kap-10.html)
+
+Han, Byung-Chul, [125](kap-08.html)
+
+Hobbes, Thomas, [10](kap-01.html)
+
+Honneth, Axel, [42](kap-03.html), [44](kap-03.html), [46](kap-03.html), [158](kap-10.html)
+
+Iyengar, Sheena, [25](kap-02.html)
+
+Jevons, William Stanley, [58](kap-04.html)
+
+Kant, Immanuel, [11](kap-01.html), [12](kap-01.html), [144](kap-09.html), [157](kap-10.html)
+
+Kettemann, Matthias, [115](kap-07.html), [116](kap-07.html)
+
+Kierkegaard, Søren, [26](kap-02.html)
+
+Lepper, Mark, [25](kap-02.html)
+
+Lessig, Lawrence, [86](kap-06.html), [91](kap-06.html)
+
+Locke, John, [9](kap-01.html), [10](kap-01.html), [20](kap-01.html), [21](kap-01.html)
+
+Luhmann, Niklas, [71](kap-05.html), [78](kap-05.html)
+
+Mayer-Schönberger, Viktor, [150](kap-09.html), [151](kap-09.html), [152](kap-09.html)
+
+Mejias, Ulises A., [105](kap-07.html)
+
+Mill, John Stuart, [16](kap-01.html), [21](kap-01.html)
+
+Montesquieu, [97](kap-06.html)
+
+Mouffe, Chantal, [103](kap-07.html)
+
+Mühlhoff, Rainer, [61](kap-04.html), [73](kap-05.html), [129](kap-08.html)
+
+Musk, Elon, [114](kap-07.html)
+
+Nissenbaum, Helen, [103](kap-07.html), [104](kap-07.html)
+
+Noelle-Neumann, Elisabeth, [109](kap-07.html)
+
+Nussbaum, Martha, [160](kap-10.html), [161](kap-10.html), [162](kap-10.html)
+
+Ortiz-Freuler, Juan, [112](kap-07.html)
+
+Pariser, Eli, [108](kap-07.html)
+
+Piccardi, Tiziano, [110](kap-07.html)
+
+Rawls, John, [146](kap-09.html), [174](kap-11.html)
+
+Robespierre, [11](kap-01.html), [17](kap-01.html)
+
+Rosa, Hartmut, [34](kap-02.html), [35](kap-02.html), [36](kap-02.html), [56](kap-04.html), [58](kap-04.html), [62](kap-04.html), [89](kap-06.html), [127](kap-08.html)
+
+Rousseau, Jean-Jacques, [10](kap-01.html), [11](kap-01.html), [13](kap-01.html), [15](kap-01.html), [17](kap-01.html)
+
+Sanders, J. W., [75](kap-05.html)
+
+Schmidt, Jan, [107](kap-07.html)
+
+Schulz, Wolfgang, [115](kap-07.html)
+
+Schwartz, Barry, [24](kap-02.html), [27](kap-02.html)
+
+Sen, Amartya, [160](kap-10.html)
+
+Shirky, Clay, [100](kap-07.html)
+
+Tawney, R. H., [14](kap-01.html), [15](kap-01.html)
+
+Taylor, Charles, [47](kap-03.html)
+
+Thatcher, Margaret, [141](kap-09.html)
+
+Weinstein, Harvey, [45](kap-03.html)
+
+Weizenbaum, Joseph, [134](kap-08.html)
+
+Welles, Orson, [120](kap-07.html)
+
+Wells, H. G., [99](kap-07.html)
+
+Wiener, Norbert, [70](kap-05.html)
+
+Zuboff, Shoshana, [91](kap-06.html), [104](kap-07.html), [105](kap-07.html), [108](kap-07.html)
+:::
+:::
+:::
+
+::: {.content-visible when-format="epub"}
 ::: {.register-columns}
 Bateson, Gregory, 69
 

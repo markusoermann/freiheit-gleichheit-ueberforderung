@@ -1,6 +1,178 @@
 # Schlagwortregister {.unnumbered}
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden when-format="epub"}
+::: {.content-visible when-format="html"}
+::: {.register-columns}
+Affordances, [86](kap-06.html)
+
+Aufgeklärter Realismus, [181](kap-11.html), [182](kap-12.html), [186](kap-12.html), [187](kap-12.html), [188](kap-12.html), [190](kap-13.html)
+
+Allgemeine Erklärung der Menschenrechte (1948), [18](kap-01.html)
+
+Anerkennung, drei Sphären der, [42](kap-03.html), [43](kap-03.html)
+
+Anerkennung vs. Umverteilung, [44](kap-03.html), [46](kap-03.html)
+
+Anti-Obdachlosenarchitektur, [85](kap-06.html)
+
+Automaten-Konformität, [32](kap-02.html), [33](kap-02.html), [156](kap-10.html)
+
+Automation Bias, [75](kap-05.html)
+
+Bedingungsloses Grundeinkommen, [149](kap-09.html)
+
+Beschleunigung, soziale (Dreifachbeschleunigung), [34](kap-02.html), [56](kap-04.html), [57](kap-04.html), [127](kap-08.html)
+
+Bibliothekskarte, [162](kap-10.html)
+
+Bürgerrat, [177](kap-11.html), [181](kap-11.html)
+
+Capability Approach, [160](kap-10.html), [161](kap-10.html)
+
+Code is Law, [86](kap-06.html), [91](kap-06.html)
+
+Cookie-Banner / informierte Einwilligung, [165](kap-10.html), [166](kap-10.html), [170](kap-11.html), [180](kap-11.html)
+
+Data Colonialism, [105](kap-07.html)
+
+Differenzprinzip, [174](kap-11.html)
+
+Digital Markets Act (DMA), [116](kap-07.html), [117](kap-07.html)
+
+Digital Services Act (DSA), [116](kap-07.html)
+
+Diskursethik, [147](kap-09.html), [157](kap-10.html)
+
+Diskurs by Design, [167](kap-10.html)
+
+Dividuum, [73](kap-05.html)
+
+DSGVO, [151](kap-09.html), [171](kap-11.html), [180](kap-11.html)
+
+Echokammer / Filterblase, [108](kap-07.html), [109](kap-07.html)
+
+ELIZA-Effekt, [134](kap-08.html)
+
+Epistemische Ungerechtigkeit, [118](kap-07.html)
+
+Erbschaft / Vermögensungleichheit, [49](kap-03.html), [50](kap-03.html), [175](kap-11.html), [176](kap-11.html), [179](kap-11.html), [180](kap-11.html)
+
+Erschöpfung als Systemzustand, [123](kap-08.html), [136](kap-08.html), [140](kap-08.html)
+
+EU AI Act (KI-Verordnung), [94](kap-06.html), [95](kap-06.html), [96](kap-06.html), [116](kap-07.html), [118](kap-07.html), [172](kap-11.html), [180](kap-11.html)
+
+FICO-Score, [72](kap-05.html), [79](kap-05.html)
+
+Flüchtige Moderne (Liquid Modernity), [27](kap-02.html)
+
+FOMO, [29](kap-02.html)
+
+Free Energy Principle / Active Inference, [137](kap-08.html), [138](kap-08.html), [139](kap-08.html)
+
+Freiheit, negative und positive, [14](kap-01.html), [15](kap-01.html), [31](kap-02.html), [108](kap-07.html)
+
+Freiheit, relationale und eingebettete, [163](kap-10.html), [165](kap-10.html), [166](kap-10.html), [168](kap-10.html), [169](kap-10.html)
+
+Freiheitsparadox, [24](kap-02.html), [38](kap-02.html)
+
+Gender Pay Gap, [48](kap-03.html)
+
+Gesellschaftsvertrag, [10](kap-01.html), [11](kap-01.html), [13](kap-01.html)
+
+Guided Cooking / Thermomix-Beispiel, [85](kap-06.html), [88](kap-06.html), [89](kap-06.html)
+
+Human-Aided AI, [61](kap-04.html)
+
+Infinite Scroll / Doom Scrolling, [90](kap-06.html)
+
+Information (Bateson-Definition), [69](kap-05.html)
+
+Interface-Generationen, [112](kap-07.html), [113](kap-07.html)
+
+Kategorischer Imperativ, [12](kap-01.html)
+
+Klimapolitik / CO2-Bepreisung, [173](kap-11.html), [174](kap-11.html), [177](kap-11.html), [180](kap-11.html), [181](kap-11.html)
+
+Kolonialismus und Freiheitsgeschichte, [21](kap-01.html), [105](kap-07.html), [106](kap-07.html)
+
+Konstellatives Verrichten / situatives Handeln, [35](kap-02.html), [36](kap-02.html), [58](kap-04.html), [60](kap-04.html), [89](kap-06.html), [130](kap-08.html)
+
+Kontextuelle Integrität, [103](kap-07.html)
+
+Kontrollillusion / Kontrollüberschuss, [68](kap-05.html), [79](kap-05.html), [82](kap-05.html)
+
+Kybernetik, [69](kap-05.html), [70](kap-05.html)
+
+Leistungsgesellschaft / Müdigkeitsgesellschaft, [125](kap-08.html), [126](kap-08.html), [127](kap-08.html)
+
+#MeToo, [45](kap-03.html), [47](kap-03.html), [48](kap-03.html)
+
+Myanmar (Facebook und Rohingya), [113](kap-07.html)
+
+Naturrecht, [9](kap-01.html), [10](kap-01.html), [12](kap-01.html), [13](kap-01.html), [17](kap-01.html), [20](kap-01.html)
+
+Normvercodung, [85](kap-06.html), [88](kap-06.html), [90](kap-06.html), [92](kap-06.html), [93](kap-06.html), [94](kap-06.html), [95](kap-06.html), [96](kap-06.html), [98](kap-06.html)
+
+Normvercodung zweiter Ordnung, [95](kap-06.html)
+
+Oversight Board (Meta), [116](kap-07.html)
+
+Paradox of Choice / Marmeladenstudie, [24](kap-02.html), [25](kap-02.html), [26](kap-02.html)
+
+Predictive Hiring, [74](kap-05.html)
+
+Predictive Policing, [76](kap-05.html)
+
+Prediction Gap, [73](kap-05.html), [74](kap-05.html), [75](kap-05.html)
+
+Privacy by Design, [166](kap-10.html), [170](kap-11.html)
+
+Quantified Self / Self-Tracking, [68](kap-05.html), [77](kap-05.html)
+
+Rasender Stillstand, [34](kap-02.html)
+
+Rebound-Effekt, [58](kap-04.html)
+
+Refeudalisierung der Öffentlichkeit, [101](kap-07.html), [113](kap-07.html)
+
+Regulative Ideen (Kant), [144](kap-09.html), [145](kap-09.html), [148](kap-09.html), [152](kap-09.html), [153](kap-09.html), [185](kap-12.html), [186](kap-12.html)
+
+Resonanz, [36](kap-02.html), [62](kap-04.html), [63](kap-04.html), [64](kap-04.html), [66](kap-04.html), [139](kap-08.html)
+
+Reverse Centaur, [129](kap-08.html), [130](kap-08.html)
+
+Robinson-Mythos, [155](kap-10.html)
+
+Schadenprinzip, [16](kap-01.html), [17](kap-01.html), [21](kap-01.html), [22](kap-01.html)
+
+Schleier des Nichtwissens, [146](kap-09.html), [147](kap-09.html)
+
+Schweigespirale, [109](kap-07.html), [110](kap-07.html)
+
+Soziales Konstrukt, Freiheit als, [13](kap-01.html), [182](kap-12.html), [183](kap-12.html)
+
+Thin Task Jobs, [131](kap-08.html)
+
+TikTok, [112](kap-07.html), [114](kap-07.html), [117](kap-07.html), [120](kap-07.html)
+
+Utopie, abstrakte vs. konkrete, [142](kap-09.html), [143](kap-09.html), [147](kap-09.html)
+
+Verantwortung, individuelle vs. strukturelle, [136](kap-08.html), [170](kap-11.html), [179](kap-11.html)
+
+Vergessenwerden, Recht auf (Art. 17 DSGVO), [151](kap-09.html), [152](kap-09.html)
+
+WCAG, [186](kap-12.html)
+
+Wikipedia, [186](kap-12.html)
+
+Überwachungskapitalismus, [91](kap-06.html), [104](kap-07.html), [112](kap-07.html)
+
+Öffentlichkeit, Strukturwandel der, [101](kap-07.html), [102](kap-07.html)
+:::
+:::
+:::
+
+::: {.content-visible when-format="epub"}
 ::: {.register-columns}
 Affordances, 86
 
