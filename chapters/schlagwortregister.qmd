@@ -1,0 +1,260 @@
+# Schlagwortregister {.unnumbered}
+
+::: {.content-hidden when-format="typst"}
+::: {.register-columns}
+Affordances, 86
+
+Aufgeklärter Realismus, 181, 182, 186, 187, 188, 190
+
+Allgemeine Erklärung der Menschenrechte (1948), 18
+
+Anerkennung, drei Sphären der, 42, 43
+
+Anerkennung vs. Umverteilung, 44, 46
+
+Anti-Obdachlosenarchitektur, 85
+
+Automaten-Konformität, 32, 33, 156
+
+Automation Bias, 75
+
+Bedingungsloses Grundeinkommen, 149
+
+Beschleunigung, soziale (Dreifachbeschleunigung), 34, 56, 57, 127
+
+Bibliothekskarte, 162
+
+Bürgerrat, 177, 181
+
+Capability Approach, 160, 161
+
+Code is Law, 86, 91
+
+Cookie-Banner / informierte Einwilligung, 165, 166, 170, 180
+
+Data Colonialism, 105
+
+Differenzprinzip, 174
+
+Digital Markets Act (DMA), 116, 117
+
+Digital Services Act (DSA), 116
+
+Diskursethik, 147, 157
+
+Diskurs by Design, 167
+
+Dividuum, 73
+
+DSGVO, 151, 171, 180
+
+Echokammer / Filterblase, 108, 109
+
+ELIZA-Effekt, 134
+
+Epistemische Ungerechtigkeit, 118
+
+Erbschaft / Vermögensungleichheit, 49, 50, 175, 176, 179, 180
+
+Erschöpfung als Systemzustand, 123, 136, 140
+
+EU AI Act (KI-Verordnung), 94, 95, 96, 116, 118, 172, 180
+
+FICO-Score, 72, 79
+
+Flüchtige Moderne (Liquid Modernity), 27
+
+FOMO, 29
+
+Free Energy Principle / Active Inference, 137, 138, 139
+
+Freiheit, negative und positive, 14, 15, 31, 108
+
+Freiheit, relationale und eingebettete, 163, 165, 166, 168, 169
+
+Freiheitsparadox, 24, 38
+
+Gender Pay Gap, 48
+
+Gesellschaftsvertrag, 10, 11, 13
+
+Guided Cooking / Thermomix-Beispiel, 85, 88, 89
+
+Human-Aided AI, 61
+
+Infinite Scroll / Doom Scrolling, 90
+
+Information (Bateson-Definition), 69
+
+Interface-Generationen, 112, 113
+
+Kategorischer Imperativ, 12
+
+Klimapolitik / CO2-Bepreisung, 173, 174, 177, 180, 181
+
+Kolonialismus und Freiheitsgeschichte, 21, 105, 106
+
+Konstellatives Verrichten / situatives Handeln, 35, 36, 58, 60, 89, 130
+
+Kontextuelle Integrität, 103
+
+Kontrollillusion / Kontrollüberschuss, 68, 79, 82
+
+Kybernetik, 69, 70
+
+Leistungsgesellschaft / Müdigkeitsgesellschaft, 125, 126, 127
+
+#MeToo, 45, 47, 48
+
+Myanmar (Facebook und Rohingya), 113
+
+Naturrecht, 9, 10, 12, 13, 17, 20
+
+Normvercodung, 85, 88, 90, 92, 93, 94, 95, 96, 98
+
+Normvercodung zweiter Ordnung, 95
+
+Oversight Board (Meta), 116
+
+Paradox of Choice / Marmeladenstudie, 24, 25, 26
+
+Predictive Hiring, 74
+
+Predictive Policing, 76
+
+Prediction Gap, 73, 74, 75
+
+Privacy by Design, 166, 170
+
+Quantified Self / Self-Tracking, 68, 77
+
+Rasender Stillstand, 34
+
+Rebound-Effekt, 58
+
+Refeudalisierung der Öffentlichkeit, 101, 113
+
+Regulative Ideen (Kant), 144, 145, 148, 152, 153, 185, 186
+
+Resonanz, 36, 62, 63, 64, 66, 139
+
+Reverse Centaur, 129, 130
+
+Robinson-Mythos, 155
+
+Schadenprinzip, 16, 17, 21, 22
+
+Schleier des Nichtwissens, 146, 147
+
+Schweigespirale, 109, 110
+
+Soziales Konstrukt, Freiheit als, 13, 182, 183
+
+Thin Task Jobs, 131
+
+TikTok, 112, 114, 117, 120
+
+Utopie, abstrakte vs. konkrete, 142, 143, 147
+
+Verantwortung, individuelle vs. strukturelle, 136, 170, 179
+
+Vergessenwerden, Recht auf (Art. 17 DSGVO), 151, 152
+
+WCAG, 186
+
+Wikipedia, 186
+
+Überwachungskapitalismus, 91, 104, 112
+
+Öffentlichkeit, Strukturwandel der, 101, 102
+:::
+:::
+
+```{=typst}
+#columns(2, gutter: 1.8em)[
+#set par(justify: false, leading: 0.65em)
+#block(breakable: false, below: 0.6em)[Affordances, 86]
+#block(breakable: false, below: 0.6em)[Aufgeklärter Realismus, 181, 182, 186, 187, 188, 190]
+#block(breakable: false, below: 0.6em)[Allgemeine Erklärung der Menschenrechte (1948), 18]
+#block(breakable: false, below: 0.6em)[Anerkennung, drei Sphären der, 42, 43]
+#block(breakable: false, below: 0.6em)[Anerkennung vs. Umverteilung, 44, 46]
+#block(breakable: false, below: 0.6em)[Anti-Obdachlosenarchitektur, 85]
+#block(breakable: false, below: 0.6em)[Automaten-Konformität, 32, 33, 156]
+#block(breakable: false, below: 0.6em)[Automation Bias, 75]
+#block(breakable: false, below: 0.6em)[Bedingungsloses Grundeinkommen, 149]
+#block(breakable: false, below: 0.6em)[Beschleunigung, soziale (Dreifachbeschleunigung), 34, 56, 57, 127]
+#block(breakable: false, below: 0.6em)[Bibliothekskarte, 162]
+#block(breakable: false, below: 0.6em)[Bürgerrat, 177, 181]
+#block(breakable: false, below: 0.6em)[Capability Approach, 160, 161]
+#block(breakable: false, below: 0.6em)[Code is Law, 86, 91]
+#block(breakable: false, below: 0.6em)[Cookie-Banner / informierte Einwilligung, 165, 166, 170, 180]
+#block(breakable: false, below: 0.6em)[Data Colonialism, 105]
+#block(breakable: false, below: 0.6em)[Differenzprinzip, 174]
+#block(breakable: false, below: 0.6em)[Digital Markets Act (DMA), 116, 117]
+#block(breakable: false, below: 0.6em)[Digital Services Act (DSA), 116]
+#block(breakable: false, below: 0.6em)[Diskursethik, 147, 157]
+#block(breakable: false, below: 0.6em)[Diskurs by Design, 167]
+#block(breakable: false, below: 0.6em)[Dividuum, 73]
+#block(breakable: false, below: 0.6em)[DSGVO, 151, 171, 180]
+#block(breakable: false, below: 0.6em)[Echokammer / Filterblase, 108, 109]
+#block(breakable: false, below: 0.6em)[ELIZA-Effekt, 134]
+#block(breakable: false, below: 0.6em)[Epistemische Ungerechtigkeit, 118]
+#block(breakable: false, below: 0.6em)[Erbschaft / Vermögensungleichheit, 49, 50, 175, 176, 179, 180]
+#block(breakable: false, below: 0.6em)[Erschöpfung als Systemzustand, 123, 136, 140]
+#block(breakable: false, below: 0.6em)[EU AI Act (KI-Verordnung), 94, 95, 96, 116, 118, 172, 180]
+#block(breakable: false, below: 0.6em)[FICO-Score, 72, 79]
+#block(breakable: false, below: 0.6em)[Flüchtige Moderne (Liquid Modernity), 27]
+#block(breakable: false, below: 0.6em)[FOMO, 29]
+#block(breakable: false, below: 0.6em)[Free Energy Principle / Active Inference, 137, 138, 139]
+#block(breakable: false, below: 0.6em)[Freiheit, negative und positive, 14, 15, 31, 108]
+#block(breakable: false, below: 0.6em)[Freiheit, relationale und eingebettete, 163, 165, 166, 168, 169]
+#block(breakable: false, below: 0.6em)[Freiheitsparadox, 24, 38]
+#block(breakable: false, below: 0.6em)[Gender Pay Gap, 48]
+#block(breakable: false, below: 0.6em)[Gesellschaftsvertrag, 10, 11, 13]
+#block(breakable: false, below: 0.6em)[Guided Cooking / Thermomix-Beispiel, 85, 88, 89]
+#block(breakable: false, below: 0.6em)[Human-Aided AI, 61]
+#block(breakable: false, below: 0.6em)[Infinite Scroll / Doom Scrolling, 90]
+#block(breakable: false, below: 0.6em)[Information (Bateson-Definition), 69]
+#block(breakable: false, below: 0.6em)[Interface-Generationen, 112, 113]
+#block(breakable: false, below: 0.6em)[Kategorischer Imperativ, 12]
+#block(breakable: false, below: 0.6em)[Klimapolitik / CO2-Bepreisung, 173, 174, 177, 180, 181]
+#block(breakable: false, below: 0.6em)[Kolonialismus und Freiheitsgeschichte, 21, 105, 106]
+#block(breakable: false, below: 0.6em)[Konstellatives Verrichten / situatives Handeln, 35, 36, 58, 60, 89, 130]
+#block(breakable: false, below: 0.6em)[Kontextuelle Integrität, 103]
+#block(breakable: false, below: 0.6em)[Kontrollillusion / Kontrollüberschuss, 68, 79, 82]
+#block(breakable: false, below: 0.6em)[Kybernetik, 69, 70]
+#block(breakable: false, below: 0.6em)[Leistungsgesellschaft / Müdigkeitsgesellschaft, 125, 126, 127]
+#block(breakable: false, below: 0.6em)[\#MeToo, 45, 47, 48]
+#block(breakable: false, below: 0.6em)[Myanmar (Facebook und Rohingya), 113]
+#block(breakable: false, below: 0.6em)[Naturrecht, 9, 10, 12, 13, 17, 20]
+#block(breakable: false, below: 0.6em)[Normvercodung, 85, 88, 90, 92, 93, 94, 95, 96, 98]
+#block(breakable: false, below: 0.6em)[Normvercodung zweiter Ordnung, 95]
+#block(breakable: false, below: 0.6em)[Oversight Board (Meta), 116]
+#block(breakable: false, below: 0.6em)[Paradox of Choice / Marmeladenstudie, 24, 25, 26]
+#block(breakable: false, below: 0.6em)[Predictive Hiring, 74]
+#block(breakable: false, below: 0.6em)[Predictive Policing, 76]
+#block(breakable: false, below: 0.6em)[Prediction Gap, 73, 74, 75]
+#block(breakable: false, below: 0.6em)[Privacy by Design, 166, 170]
+#block(breakable: false, below: 0.6em)[Quantified Self / Self-Tracking, 68, 77]
+#block(breakable: false, below: 0.6em)[Rasender Stillstand, 34]
+#block(breakable: false, below: 0.6em)[Rebound-Effekt, 58]
+#block(breakable: false, below: 0.6em)[Refeudalisierung der Öffentlichkeit, 101, 113]
+#block(breakable: false, below: 0.6em)[Regulative Ideen (Kant), 144, 145, 148, 152, 153, 185, 186]
+#block(breakable: false, below: 0.6em)[Resonanz, 36, 62, 63, 64, 66, 139]
+#block(breakable: false, below: 0.6em)[Reverse Centaur, 129, 130]
+#block(breakable: false, below: 0.6em)[Robinson-Mythos, 155]
+#block(breakable: false, below: 0.6em)[Schadenprinzip, 16, 17, 21, 22]
+#block(breakable: false, below: 0.6em)[Schleier des Nichtwissens, 146, 147]
+#block(breakable: false, below: 0.6em)[Schweigespirale, 109, 110]
+#block(breakable: false, below: 0.6em)[Soziales Konstrukt, Freiheit als, 13, 182, 183]
+#block(breakable: false, below: 0.6em)[Thin Task Jobs, 131]
+#block(breakable: false, below: 0.6em)[TikTok, 112, 114, 117, 120]
+#block(breakable: false, below: 0.6em)[Utopie, abstrakte vs. konkrete, 142, 143, 147]
+#block(breakable: false, below: 0.6em)[Verantwortung, individuelle vs. strukturelle, 136, 170, 179]
+#block(breakable: false, below: 0.6em)[Vergessenwerden, Recht auf (Art. 17 DSGVO), 151, 152]
+#block(breakable: false, below: 0.6em)[WCAG, 186]
+#block(breakable: false, below: 0.6em)[Wikipedia, 186]
+#block(breakable: false, below: 0.6em)[Überwachungskapitalismus, 91, 104, 112]
+#block(breakable: false, below: 0.6em)[Öffentlichkeit, Strukturwandel der, 101, 102]
+]
+```

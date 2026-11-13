@@ -22,7 +22,7 @@ und setzt keine juristischen oder soziologischen Vorkenntnisse voraus.
 
 ## Stand
 
-Das Buch erscheint kapitelweise. Aktuell online:
+Das Buch ist vollständig online.
 
 - Vorwort
 - Einleitung: Das Gefühl und der Bogen
@@ -37,9 +37,12 @@ Das Buch erscheint kapitelweise. Aktuell online:
 - Kapitel 9: Regulative des Möglichen
 - Kapitel 10: Relational, eingebettet, verantwortlich
 - Kapitel 11: Institutionelle Antworten
+- Kapitel 12: Aufgeklärter Realismus als Haltung
+- Kapitel 13: Kein Ausweg, aber eine Haltung
+- Personenregister
+- Schlagwortregister
 
-Neben der Website steht ein PDF-Download zur Verfügung, ein vollständiges EPUB
-folgt später, ebenso ein Personen- und Schlagwortverzeichnis.
+Neben der Website stehen ein PDF- und ein EPUB-Download zur Verfügung.
 
 ## Über den Kurator
 

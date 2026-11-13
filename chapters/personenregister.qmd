@@ -1,0 +1,191 @@
+# Personenregister {.unnumbered}
+
+::: {.content-hidden when-format="typst"}
+::: {.register-columns}
+Bateson, Gregory, 69
+
+Bauman, Zygmunt, 27, 29, 156, 157
+
+Benkler, Yochai, 100
+
+Berlin, Isaiah, 14, 15, 31, 108
+
+Bloch, Ernst, 142, 152
+
+Burke, Tarana, 45
+
+Castells, Manuel, 112
+
+Couldry, Nick, 105
+
+Ehrenberg, Alain, 123, 124
+
+Floridi, Luciano, 75
+
+Foucault, Michel, 56, 125
+
+Fraser, Nancy, 44, 46, 103
+
+Fricker, Miranda, 118, 119
+
+Friston, Karl, 137
+
+Fromm, Erich, 14, 30, 31, 32, 83, 156
+
+Habermas, Jürgen, 101, 102, 147, 157
+
+Han, Byung-Chul, 125
+
+Hobbes, Thomas, 10
+
+Honneth, Axel, 42, 44, 46, 158
+
+Iyengar, Sheena, 25
+
+Jevons, William Stanley, 58
+
+Kant, Immanuel, 11, 12, 144, 157
+
+Kettemann, Matthias, 115, 116
+
+Kierkegaard, Søren, 26
+
+Lepper, Mark, 25
+
+Lessig, Lawrence, 86, 91
+
+Locke, John, 9, 10, 20, 21
+
+Luhmann, Niklas, 71, 78
+
+Mayer-Schönberger, Viktor, 150, 151, 152
+
+Mejias, Ulises A., 105
+
+Mill, John Stuart, 16, 21
+
+Montesquieu, 97
+
+Mouffe, Chantal, 103
+
+Mühlhoff, Rainer, 61, 73, 129
+
+Musk, Elon, 114
+
+Nissenbaum, Helen, 103, 104
+
+Noelle-Neumann, Elisabeth, 109
+
+Nussbaum, Martha, 160, 161, 162
+
+Ortiz-Freuler, Juan, 112
+
+Pariser, Eli, 108
+
+Piccardi, Tiziano, 110
+
+Rawls, John, 146, 174
+
+Robespierre, 11, 17
+
+Rosa, Hartmut, 34, 35, 36, 56, 58, 62, 89, 127
+
+Rousseau, Jean-Jacques, 10, 11, 13, 15, 17
+
+Sanders, J. W., 75
+
+Schmidt, Jan, 107
+
+Schulz, Wolfgang, 115
+
+Schwartz, Barry, 24, 27
+
+Sen, Amartya, 160
+
+Shirky, Clay, 100
+
+Tawney, R. H., 14, 15
+
+Taylor, Charles, 47
+
+Thatcher, Margaret, 141
+
+Weinstein, Harvey, 45
+
+Weizenbaum, Joseph, 134
+
+Welles, Orson, 120
+
+Wells, H. G., 99
+
+Wiener, Norbert, 70
+
+Zuboff, Shoshana, 91, 104, 105, 108
+:::
+:::
+
+```{=typst}
+#columns(2, gutter: 1.8em)[
+#set par(justify: false, leading: 0.65em)
+#block(breakable: false, below: 0.6em)[Bateson, Gregory, 69]
+#block(breakable: false, below: 0.6em)[Bauman, Zygmunt, 27, 29, 156, 157]
+#block(breakable: false, below: 0.6em)[Benkler, Yochai, 100]
+#block(breakable: false, below: 0.6em)[Berlin, Isaiah, 14, 15, 31, 108]
+#block(breakable: false, below: 0.6em)[Bloch, Ernst, 142, 152]
+#block(breakable: false, below: 0.6em)[Burke, Tarana, 45]
+#block(breakable: false, below: 0.6em)[Castells, Manuel, 112]
+#block(breakable: false, below: 0.6em)[Couldry, Nick, 105]
+#block(breakable: false, below: 0.6em)[Ehrenberg, Alain, 123, 124]
+#block(breakable: false, below: 0.6em)[Floridi, Luciano, 75]
+#block(breakable: false, below: 0.6em)[Foucault, Michel, 56, 125]
+#block(breakable: false, below: 0.6em)[Fraser, Nancy, 44, 46, 103]
+#block(breakable: false, below: 0.6em)[Fricker, Miranda, 118, 119]
+#block(breakable: false, below: 0.6em)[Friston, Karl, 137]
+#block(breakable: false, below: 0.6em)[Fromm, Erich, 14, 30, 31, 32, 83, 156]
+#block(breakable: false, below: 0.6em)[Habermas, Jürgen, 101, 102, 147, 157]
+#block(breakable: false, below: 0.6em)[Han, Byung-Chul, 125]
+#block(breakable: false, below: 0.6em)[Hobbes, Thomas, 10]
+#block(breakable: false, below: 0.6em)[Honneth, Axel, 42, 44, 46, 158]
+#block(breakable: false, below: 0.6em)[Iyengar, Sheena, 25]
+#block(breakable: false, below: 0.6em)[Jevons, William Stanley, 58]
+#block(breakable: false, below: 0.6em)[Kant, Immanuel, 11, 12, 144, 157]
+#block(breakable: false, below: 0.6em)[Kettemann, Matthias, 115, 116]
+#block(breakable: false, below: 0.6em)[Kierkegaard, Søren, 26]
+#block(breakable: false, below: 0.6em)[Lepper, Mark, 25]
+#block(breakable: false, below: 0.6em)[Lessig, Lawrence, 86, 91]
+#block(breakable: false, below: 0.6em)[Locke, John, 9, 10, 20, 21]
+#block(breakable: false, below: 0.6em)[Luhmann, Niklas, 71, 78]
+#block(breakable: false, below: 0.6em)[Mayer-Schönberger, Viktor, 150, 151, 152]
+#block(breakable: false, below: 0.6em)[Mejias, Ulises A., 105]
+#block(breakable: false, below: 0.6em)[Mill, John Stuart, 16, 21]
+#block(breakable: false, below: 0.6em)[Montesquieu, 97]
+#block(breakable: false, below: 0.6em)[Mouffe, Chantal, 103]
+#block(breakable: false, below: 0.6em)[Mühlhoff, Rainer, 61, 73, 129]
+#block(breakable: false, below: 0.6em)[Musk, Elon, 114]
+#block(breakable: false, below: 0.6em)[Nissenbaum, Helen, 103, 104]
+#block(breakable: false, below: 0.6em)[Noelle-Neumann, Elisabeth, 109]
+#block(breakable: false, below: 0.6em)[Nussbaum, Martha, 160, 161, 162]
+#block(breakable: false, below: 0.6em)[Ortiz-Freuler, Juan, 112]
+#block(breakable: false, below: 0.6em)[Pariser, Eli, 108]
+#block(breakable: false, below: 0.6em)[Piccardi, Tiziano, 110]
+#block(breakable: false, below: 0.6em)[Rawls, John, 146, 174]
+#block(breakable: false, below: 0.6em)[Robespierre, 11, 17]
+#block(breakable: false, below: 0.6em)[Rosa, Hartmut, 34, 35, 36, 56, 58, 62, 89, 127]
+#block(breakable: false, below: 0.6em)[Rousseau, Jean-Jacques, 10, 11, 13, 15, 17]
+#block(breakable: false, below: 0.6em)[Sanders, J. W., 75]
+#block(breakable: false, below: 0.6em)[Schmidt, Jan, 107]
+#block(breakable: false, below: 0.6em)[Schulz, Wolfgang, 115]
+#block(breakable: false, below: 0.6em)[Schwartz, Barry, 24, 27]
+#block(breakable: false, below: 0.6em)[Sen, Amartya, 160]
+#block(breakable: false, below: 0.6em)[Shirky, Clay, 100]
+#block(breakable: false, below: 0.6em)[Tawney, R. H., 14, 15]
+#block(breakable: false, below: 0.6em)[Taylor, Charles, 47]
+#block(breakable: false, below: 0.6em)[Thatcher, Margaret, 141]
+#block(breakable: false, below: 0.6em)[Weinstein, Harvey, 45]
+#block(breakable: false, below: 0.6em)[Weizenbaum, Joseph, 134]
+#block(breakable: false, below: 0.6em)[Welles, Orson, 120]
+#block(breakable: false, below: 0.6em)[Wells, H. G., 99]
+#block(breakable: false, below: 0.6em)[Wiener, Norbert, 70]
+#block(breakable: false, below: 0.6em)[Zuboff, Shoshana, 91, 104, 105, 108]
+]
+```

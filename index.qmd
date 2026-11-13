@@ -1,7 +1,7 @@
 :::: {.content-visible when-format="html"}
 [Erstellt mit KI und kuratiert von Markus Oermann]{.curator-byline}
 
-[Public Beta · Version 0.11]{.beta-badge} &nbsp; Stand: 5. November 2026
+[Public Beta · Version 0.12]{.beta-badge} &nbsp; Stand: 9. November 2026
 
 ::: {.book-epigraph}
 > It's been a long\
@@ -20,7 +20,7 @@
 // Seite 2: Byline, dann Public-Beta-Zeile.
 #text(fill: rgb("#5b6670"))[Erstellt mit KI und kuratiert von Markus Oermann]
 #parbreak()
-#text(fill: rgb("#5b6670"))[Public Beta · Version 0.11 · Stand: 5. November 2026]
+#text(fill: rgb("#5b6670"))[Public Beta · Version 0.12 · Stand: 9. November 2026]
 #pagebreak()
 // Seite 3: das Sam-Cooke-Motto allein.
 #v(1fr)
@@ -39,7 +39,7 @@ Oh yes, it will
 #v(1em)
 #context {
   for hd in query(heading.where(level: 1)) {
-    if hd.body != [] {
+    if hd.body != [] and hd.body != [Personenregister] and hd.body != [Schlagwortregister] {
       let loc = hd.location()
       let pg = counter(page).at(loc).first()
       [#link(loc)[#hd.body]#h(1fr)#link(loc)[#pg]]
