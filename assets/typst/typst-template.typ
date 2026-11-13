@@ -156,3 +156,5 @@
   inset: 6pt,
   stroke: none
 )
+// Blocksatz auch in Tabellenzellen aus (z.B. Register mit umbrechenden Zeilen):
+#show table.cell: set par(justify: false)

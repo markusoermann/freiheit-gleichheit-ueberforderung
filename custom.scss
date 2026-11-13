@@ -87,3 +87,16 @@ blockquote {
 // Navigation nuechtern
 .sidebar-navigation .active { font-weight: 600; }
 .sidebar-title { font-weight: 700; }
+
+// Register (Personen-/Schlagwortregister): echte fliessende Spalten statt
+// Tabelle, damit ein Umbruch in der einen Spalte keine Luecke in der anderen
+// erzeugt. EPUB ignoriert column-count und zeigt eine einfache Liste.
+.register-columns {
+  column-count: 2;
+  column-gap: 2rem;
+}
+.register-columns p {
+  margin: 0 0 0.6rem;
+  line-height: 1.0;
+  break-inside: avoid;
+}

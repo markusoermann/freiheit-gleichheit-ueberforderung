@@ -5,7 +5,7 @@ project:
 book:
   title: "Freiheit, Gleichheit, Überforderung"
   output-file: "freiheit-gleichheit-ueberforderung"
-  downloads: [pdf]
+  downloads: [pdf, epub]
   search: true
   reader-mode: true
   page-navigation: true
@@ -25,7 +25,14 @@ book:
     - chapters/kap-09.qmd
     - chapters/kap-10.qmd
     - chapters/kap-11.qmd
+    - chapters/kap-12.qmd
+    - chapters/kap-13.qmd
     # END chapters
+    # Manuell gepflegt, nicht von split_manuscript.py verwaltet. Beim naechsten
+    # Lauf des Skripts bleibt dieser Teil unverandert, da es nur den Bereich
+    # zwischen BEGIN/END chapters neu schreibt.
+    - chapters/personenregister.qmd
+    - chapters/schlagwortregister.qmd
   page-footer:
     left: "Erstellt mit KI und kuratiert von [Markus Oermann](https://fiw.thws.de/fakultaet/personen/dozentinnen-und-dozenten/person/prof-dr-markus-oermann/)"
     center: "[Korrekturvorschläge über GitHub](https://github.com/markusoermann/freiheit-gleichheit-ueberforderung)"
@@ -69,3 +76,8 @@ format:
     template-partials:
       - assets/typst/typst-template.typ
       - assets/typst/typst-show.typ
+  epub:
+    toc: true
+    toc-title: "Inhalt"
+    number-sections: false
+    epub-title-page: true
